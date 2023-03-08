@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <h1> A Simple Weather App</h1>
+    </nav>
+    <main>
+      <section id="input_container">
+        <form>
+          <input
+            id="city"
+            name="city"
+            type="text"
+            placeholder="Enter City ...."
+          />
+          <button id="submit">Submit</button>
+        </form>
+      </section>
+      <section id="results">
+        <article id="container">
+          <h3 id="result_city"></h3>
+          <p id="result_sky-conditions"></p>
+          <p id="result_temp"></p>
+          <p id="result_wind-speed"></p>
+        </article>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

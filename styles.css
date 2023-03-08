@@ -1,0 +1,97 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(199, 211, 216);
+}
+
+nav {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+#input_container {
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0 5rem;
+    border-radius: 1rem;
+    background: rgb(229, 234, 236);
+}
+
+#city {
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+#submit {
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: azure;
+    background: rgb(12, 53, 70);
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: rgb(2, 16, 32);
+}
+
+#results {
+    min-width: 25rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: rgb(229, 234, 236);
+}
+
+article {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+h3 {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
